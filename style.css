@@ -3,6 +3,7 @@
 :root {
     --primary-color: #B45309;
     --black-color: #111827;
+    --white-color: #F3F4F6;
 }
 
 body {
@@ -39,6 +40,7 @@ textarea {
     font-size: 1.5rem;
     font-family: inherit;
     margin-left: 2rem;
+    color: var(--black-color);
 }
 
 /* styling output */
@@ -51,7 +53,7 @@ textarea {
     font-size: 1.5rem;
     margin-left: 2rem;
     font-family: 'Montserrat', sans-serif;
-    color: var(--black-color);
+    color: var(--white-color);
     font-weight: bold;
 }
 
@@ -71,7 +73,7 @@ section p {
     font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
     margin-left: 2rem;
-    color: var(--black-color);
+    color: var(--white-color);
     font-weight: bold;
 }
 
